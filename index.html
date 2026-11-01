@@ -1,1 +1,123 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10152b">
+<title>KAIROYBISSNES | Tu negocio merece crecer</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:#11182b;border-bottom:1px solid #303954}
+.logo{font-size:23px;font-weight:bold;color:#b7a5ff}
+nav a{color:#fff;text-decoration:none;margin-left:14px;font-size:14px}
+.hero{text-align:center;padding:75px 20px 65px;background:linear-gradient(135deg,#151e40,#321b55,#10152b)}
+.hero h1{font-size:clamp(34px,7vw,58px);margin:10px auto;max-width:800px}
+.hero p{font-size:18px;line-height:1.7;color:#d5d9eb;max-width:700px;margin:20px auto}
+.btn{display:inline-block;background:#8b70ff;color:white;text-decoration:none;padding:14px 22px;border-radius:10px;font-weight:bold;margin:8px;border:0;cursor:pointer}
+.btn2{background:transparent;border:1px solid #a99aff}
+section{padding:48px 7%}
+h2{text-align:center;font-size:30px}
+.intro{text-align:center;color:#c6cbe0;line-height:1.7;max-width:760px;margin:0 auto 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#151d32;border:1px solid #303b5a;border-radius:15px;padding:24px}
+.card h3{color:#b9a7ff}
+.card p{color:#cbd1e4;line-height:1.6}
+.card a{color:#c4b5fd}
+form{max-width:650px;margin:auto;background:#151d32;padding:24px;border-radius:15px}
+label{display:block;margin:14px 0 7px}
+input,select,textarea{width:100%;padding:13px;border-radius:8px;border:1px solid #414d6d;background:#0b1020;color:white;font-size:16px}
+footer{text-align:center;padding:28px;color:#adb6d0;background:#11182b}
+small{color:#adb6d0}
+@media(max-width:600px){header{padding:18px 5%;flex-wrap:wrap;gap:12px}nav a{margin-left:8px}.hero{padding-top:55px}section{padding:38px 5%}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">KAIROYBISSNES</div>
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<main>
+<div class="hero">
+<p>TECNOLOGÍA · CULTURA · CREATIVIDAD · EMPRENDIMIENTO</p>
+<h1>Tu negocio merece crecer.</h1>
+<p>Impulsamos negocios, emprendimientos y organizaciones culturales con herramientas digitales, inteligencia artificial, música y creatividad.</p>
+<a class="btn" href="#servicios">Descubre nuestros servicios</a>
+<a class="btn btn2" href="#contacto">Solicita información</a>
+</div>
+
+<section id="nosotros">
+<h2>Ideas que se convierten en oportunidades</h2>
+<p class="intro">KAIROYBISSNES nace para ayudar a pequeños negocios, emprendedores, artistas y organizaciones culturales a fortalecer su presencia digital y desarrollar nuevas oportunidades.</p>
+</section>
+
+<section id="servicios">
+<h2>Nuestras líneas de negocio</h2>
+<p class="intro">Soluciones creativas y digitales para llevar tus proyectos al siguiente nivel.</p>
+<div class="grid">
+<div class="card"><h3>🏢 KAIROYBISSNES EMPRESAS</h3><p>Catálogos digitales, promoción comercial, organización de clientes y soluciones para pequeños negocios.</p><a href="#contacto">Solicitar información →</a></div>
+<div class="card"><h3>🎭 KAIROYBISSNES CULTURA</h3><p>Portafolios artísticos, proyectos culturales, propuestas para festivales y promoción de agrupaciones.</p><a href="#contacto">Impulsar mi proyecto →</a></div>
+<div class="card"><h3>🎵 KAIROYBISSNES MUSIC</h3><p>Composición, ideas musicales, demos, jingles y apoyo creativo para proyectos musicales.</p><a href="#contacto">Consultar servicio →</a></div>
+<div class="card"><h3>🏠 KAIROYBISSNES ESPACIOS</h3><p>Conceptos visuales para decoración, ambientación comercial, murales y propuestas creativas para espacios.</p><a href="#contacto">Diseñar mi espacio →</a></div>
+<div class="card"><h3>🤖 KAIROYBISSNES IA</h3><p>Apoyo con inteligencia artificial para contenidos, propuestas comerciales y organización de tareas.</p><a href="#contacto">Explorar soluciones →</a></div>
+</div>
+</section>
+
+<section>
+<h2>¿A quién ayudamos?</h2>
+<div class="grid">
+<div class="card"><h3>Pequeños negocios</h3><p>Tiendas, restaurantes, peluquerías, talleres y comercios locales.</p></div>
+<div class="card"><h3>Emprendedores</h3><p>Personas que quieren presentar, promocionar y hacer crecer sus ideas.</p></div>
+<div class="card"><h3>Artistas y cultura</h3><p>Grupos de danza, músicos, gestores culturales y fundaciones.</p></div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Hablemos de tu proyecto</h2>
+<p class="intro">Cuéntanos qué necesitas. Este formulario prepara un mensaje para que puedas enviarlo por WhatsApp.</p>
+<form id="contactForm">
+<label for="nombre">Tu nombre</label>
+<input id="nombre" required placeholder="Escribe tu nombre">
+<label for="tipo">¿Qué tipo de proyecto tienes?</label>
+<select id="tipo" required>
+<option value="">Selecciona una opción</option>
+<option>Pequeño negocio</option>
+<option>Emprendimiento</option>
+<option>Organización cultural</option>
+<option>Proyecto musical</option>
+<option>Diseño de espacios</option>
+<option>Inteligencia artificial</option>
+<option>Otro</option>
+</select>
+<label for="mensaje">¿Cómo podemos ayudarte?</label>
+<textarea id="mensaje" rows="4" required placeholder="Describe brevemente tu proyecto"></textarea>
+<button class="btn" type="submit">Preparar consulta por WhatsApp</button>
+<small>Al continuar, WhatsApp abrirá el mensaje para que revises y decidas si deseas enviarlo.</small>
+</form>
+</section>
+</main>
+
+<footer>
+<strong>KAIROYBISSNES</strong><br>
+Tu negocio merece crecer.<br><br>
+<small>Servicios sujetos a disponibilidad y cotización. Las herramientas digitales avanzadas se implementarán por etapas.</small>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit',function(e){
+e.preventDefault();
+const nombre=document.getElementById('nombre').value.trim();
+const tipo=document.getElementById('tipo').value;
+const mensaje=document.getElementById('mensaje').value.trim();
+const texto=`Hola, soy ${nombre}. Mi proyecto es: ${tipo}. Necesito información sobre KAIROYBISSNES. Mi consulta: ${mensaje}`;
+window.open('https://wa.me/?text='+encodeURIComponent(texto),'_blank');
+});
+</script>
+</body>
+</html>
